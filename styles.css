@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.web-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: seagreen;
+}
+
+code {
+    font-size: 30px;
+    color: rgb(18, 17, 22);
+}
+
+footer {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 17, 22);
+}
+
+.logo {
+    background-image: url(./images/Logo.png);
+    width: 112px;
+    height: 36px;
+    margin-bottom: 50px;
+    align-self: center;
+    margin-top: 120px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.social h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a,
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brake-line {
+    width: 230px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 20px 0;
+
+}
+
+.copyright {
+    width: 250px;
+    height: 16px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.copyright a {
+    color: #00c7fc;
+
+}
